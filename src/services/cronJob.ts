@@ -4,6 +4,7 @@ import { ExchangeRateRepository } from '@repositories';
 
 export function startCronJob() {
   cron.schedule('0 * * * *', () => {
+    // run every hour
     async function getExchangeRate() {
       try {
         // send a request to the API to get the exchange rate
