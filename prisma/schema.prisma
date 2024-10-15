@@ -19,3 +19,11 @@ model User {
   email    String  @unique
   password String
 }
+
+model ExchangeRate {
+  id        String   @id @default(uuid())
+  from      String
+  to        String
+  rate      Float
+  createdAt DateTime @default(now())
+}
