@@ -9,3 +9,11 @@ Table User {
   email String [unique, not null]
   password String [not null]
 }
+
+Table ExchangeRate {
+  id String [pk]
+  from String [not null]
+  to String [not null]
+  rate Float [not null]
+  createdAt DateTime [default: `now()`, not null]
+}
