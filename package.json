@@ -7,7 +7,7 @@
     "node": ">=18.16"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.670.0",
+    "@aws-sdk/client-s3": "^3.703.0",
     "@prisma/client": "5.20.0",
     "@swc/cli": "0.4.1-nightly.20240914",
     "@swc/core": "^1.7.36",
